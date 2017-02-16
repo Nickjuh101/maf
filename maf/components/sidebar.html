@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet/less" type="text/css" href="../css/sidebar.less"/>
+    <script src="../javascript/sidebar-toggler.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <div class="sidebar">
+        <ul class="sidebar--list">
+            <div class="action">
+                <p class="action--text">Actions</p>
+            </div>
+            <li><p class="sidebar--list__hulpheading" onclick="sidebarToggle(this, 'one')">Hulp</p></li>
+            <div id ="hulp">
+                <li><a href="../pages/home.html">Home</a></li>
+                <li><a href="../pages/nieuws.html">Nieuws</a></li>
+                <li><a href="../pages/hulp.html">Hulp</a></li>
+                <li><a href="../pages/onlinegebruikers.html">Gebruikers Online</a></li>
+                <li><a href="../pages/gebruikers.html">Alle Gebruikers</a></li>
+                <li><a href="../pages/ads.html">Ads</a></li>
+                <li><a href="../pages/statistieken.html">Statistieken</a></li>
+                <li><a href="../pages/helpdesk.html">Helpdesk</a></li>
+                <li><a href="../pages/doneer.html">Doneer</a></li>
+                <li><a href="../pages/poll.html">Poll</a></li>
+                <li><a href="../pages/promootmafiosi.html">Promoot Mafiosi</a></li>
+            </div>
+
+            <li><p class="sidebar--list__persoonlijkheading" onclick="sidebarToggle(this, 'two')">Persoonlijk</p></li>
+            <div id ="persoonlijk">
+                <li><a href="../pages/status.html">Status</a></li>
+                <li><a href="../pages/profiel.html">Profiel</a></li>
+                <li><a href="../pages/eerpunten.html">Eerpunten</a></li>
+            </div>
+
+            <li><p class="sidebar--list__crimesheading" onclick="sidebarToggle(this, 'three')">Crimes</p></li>
+            <div id ="misdaden">
+                <li><a href="../pages/misdaad.html">Misdaden</a></li>
+                <li><a href="../pages/jateenvoertuig.html">Jat een voertuig</a></li>
+                <li><a href="../pages/garage.html">Garage</a></li>
+                <li><a href="../pages/drank.html">Drank</a></li>
+                <li><a href="../pages/drugs.html">Drugs</a></li>
+                <li><a href="../pages/oc.html">Organised Crime</a></li>
+                <li><a href="../pages/overval.html">Overval</a></li>
+            </div>
+
+            <li><p class="sidebar--list__spelheading" onclick="sidebarToggle(this, 'four')">Spel</p></li>
+            <div id ="spel">
+                <li><a href="../pages/winkel.html">Winkel</a></li>
+                <li><a href="../pages/kogelfabriek.html">Kogelfabriek</a></li>
+                <li><a href="../pages/lokale-kogelfabriek.html">Lokale Kogelfabriek</a></li>
+                <li><a href="../pages/reis.html">Reis</a></li>
+                <li><a href="../pages/bank.html">Bank</a></li>
+                <li><a href="../pages/gevangenis.html">Gevangenis</a></li>
+                <li><a href="../pages/hitlist.html">Hitlist</a></li>
+                <li><a href="../pages/detectives.html">Detectives</a></li>
+                <li><a href="../pages/vermoord.html">Vermoord</a></li>
+                <li><a href="../pages/ziekenhuis.html">Ziekenhuis</a></li>
+                <li><a href="../pages/ontvoer.html">Ontvoer iemand</a></li>
+                <li><a href="../pages/paarden.html">Paarden</a></li>
+                <li><a href="../pages/race.html">Race</a></li>
+                <li><a href="../pages/veiling.html">Veiling</a></li>
+                <li><a href="../pages/missies.html">Missies</a></li>
+                <li><a href="../pages/trouwen.html">Trouwen</a></li>
+            </div>
+
+            <li><p class="sidebar--list__familieheading" onclick="sidebarToggle(this, 'five')">Familie</p></li>
+            <div id ="familie">
+                <li><a href="../pages/iets.html">iets</a></li>
+            </div>
+
+            <li><p class="sidebar--list__casinoheading" onclick="sidebarToggle(this, 'six')">Casino</p></li>
+            <div id ="casino">
+                <li><a href="../pages/kras-en-win.html">Kras en Win!</a></li>
+                <li><a href="../pages/roulette.html">Roulette</a></li>
+                <li><a href="../pages/blackjack.html">Blackjack</a></li>
+                <li><a href="../pages/paardenrace.html">Paardenrace</a></li>
+                <li><a href="../pages/nummerspel.html">Nummerspel</a></li>
+            </div>
+
+            <li><p class="sidebar--list__communicatieheading" onclick="sidebarToggle(this, 'seven')">Communicatie</p></li>
+            <div id ="berichten">
+                <li><a href="../pages/inbox.html">Inbox</a></li>
+                <li><a href="../pages/verstuurbericht.html">Verstuur bericht</a></li>
+                <li><a href="../pages/forum.html">Forum</a></li>
+                <li><a href="../pages/javachat.html">Java chat</a></li>
+            </div>
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>

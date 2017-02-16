@@ -1,0 +1,46 @@
+.sidebar{
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  width: 215px;
+  float: left;
+  min-height: 500px;
+  border-right: white 1px solid;
+
+  p {
+    color: #e68500;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  &--list{
+    list-style-type: none;
+    padding: 0;
+
+    .action{
+      background-color: #e68500;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      &--text{
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+    div{
+      a{
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #e68500;
+      }
+    }
+
+  }
+}
